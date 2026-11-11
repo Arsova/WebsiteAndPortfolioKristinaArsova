@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Journal & Newsletter — Kristina Arsova</title>
+  <meta name="description" content="Articles, reflections, project updates, and newsletter issues by Kristina Arsova.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Kristina <span>Arsova</span></a>
+      <nav class="nav-links">
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="services.html">Services</a>
+        <a href="journal.html" class="active">Journal</a>
+        <a class="btn" href="services.html#contact">Work with me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-head">
+      <div class="container">
+        <span class="eyebrow">Journal</span>
+        <h1>Ideas, notes<br>and work in progress</h1>
+        <p class="lead">Short articles and reflections on creativity, AI, communication, learning, and projects I am exploring.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid grid-3">
+        <article class="card">
+          <span class="tag">Creativity</span>
+          <h3>Article title</h3>
+          <p class="meta">Date · 4 min read</p>
+          <p>Write a short introduction to the idea and why it matters to your audience.</p>
+          <a href="#">Read more →</a>
+        </article>
+        <article class="card">
+          <span class="tag">AI</span>
+          <h3>Article title</h3>
+          <p class="meta">Date · 5 min read</p>
+          <p>Write a short introduction to the idea and why it matters to your audience.</p>
+          <a href="#">Read more →</a>
+        </article>
+        <article class="card">
+          <span class="tag">Communication</span>
+          <h3>Article title</h3>
+          <p class="meta">Date · 3 min read</p>
+          <p>Write a short introduction to the idea and why it matters to your audience.</p>
+          <a href="#">Read more →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <div class="newsletter">
+          <div>
+            <h2>Get new posts by email</h2>
+            <p>Subscribe for occasional updates and practical ideas. You can unsubscribe at any time.</p>
+          </div>
+          <form action="#" method="post">
+            <input type="email" name="email" placeholder="Your email address" required>
+            <button class="btn" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><a class="brand" href="index.html">Kristina <span>Arsova</span></a><small><br>© <span id="year"></span> Kristina Arsova.</small></div>
+      <nav class="nav-links"><a href="https://www.linkedin.com/in/kristina-arsova" target="_blank" rel="noopener">LinkedIn</a><a href="services.html#contact">Contact</a></nav>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
